@@ -7,7 +7,7 @@ function MyAvatar() {
   return (
     <Link
       href="/"
-      className="flex flex-row rounded items-center gap-2 transition-colors hover:bg-gray-100 hover:dark:bg-neutral-800/30 p-2"
+      className="flex flex-row rounded items-center gap-2 transition-colors hover:bg-accent p-2"
     >
       <Avatar>
         <AvatarImage src="./assets/avatar.webp" alt="@profile-picture" />
