@@ -1,30 +1,21 @@
 'use client';
 
-import { MoonIcon, SunIcon } from '@radix-ui/react-icons';
-import { useTheme } from 'next-themes';
 import MyAvatar from './avatar';
-import { Menu } from './menu';
+import { DesktopMenu } from './menu/desktop';
+import { MobileMenu } from './menu/mobile';
+import ThemeButton from './theme-button';
 
 function Header() {
-  const { setTheme, resolvedTheme } = useTheme();
-
-  const ThemeIcon = resolvedTheme === 'dark' ? SunIcon : MoonIcon;
-
   return (
-    <header className="my-10 w-full">
-      <div className="flex flex-row items-center justify-between">
+    <header className="w-full py-4 lg:border-b border-dashed border-slate-100 w-screen">
+      <div className="flex flex-row items-center justify-between mx-auto lg:max-w-7xl px-4">
         <MyAvatar />
         <div className="flex flex-row items-center">
-          <Menu />
-          <button
-            onClick={() =>
-              setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
-            }
-            type="button"
-            className="rounded transition hover:text-gray-900 dark:text-gray-200 dark:hover:text-gray-100 transition-colors hover:bg-accent p-2"
-          >
-            <ThemeIcon width="22px" height="22px" />
-          </button>
+          <DesktopMenu />
+          <MobileMenu />
+          <div className="md:flex hidden">
+            <ThemeButton />
+          </div>
         </div>
       </div>
     </header>
