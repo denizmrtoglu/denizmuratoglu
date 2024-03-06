@@ -22,7 +22,12 @@ export function DesktopMenu() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>About Me</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+            <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-rows-3 lg:grid-flow-col">
+              {ABOUT_ME_LINKS.map(item => (
+                <ListItem key={item.title} title={item.title} href={item.href}>
+                  {item.description}
+                </ListItem>
+              ))}
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <a
@@ -32,7 +37,7 @@ export function DesktopMenu() {
                     <Image
                       src="./assets/sosio.svg"
                       alt="@profile-picture"
-                      className="rounded flex-1"
+                      className="rounded flex-1 max-w-36"
                       width={0}
                       height={0}
                       sizes="100vw"
@@ -43,17 +48,12 @@ export function DesktopMenu() {
                       <div className="mb-2 mt-4 text-lg font-medium">sosio</div>
                       <p className="text-sm leading-tight text-muted-foreground">
                         {`Turning ideas into reality with expertise and
-                        dedication.`}
+                      dedication.`}
                       </p>
                     </div>
                   </a>
                 </NavigationMenuLink>
               </li>
-              {ABOUT_ME_LINKS.map(item => (
-                <ListItem key={item.title} title={item.title} href={item.href}>
-                  {item.description}
-                </ListItem>
-              ))}
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
