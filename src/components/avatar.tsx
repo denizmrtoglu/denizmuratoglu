@@ -15,7 +15,9 @@ function MyAvatar() {
       </Avatar>
       <div className="flex flex-col justify-center	">
         <span className="text-lg font-bold leading-none">Deniz Muratoglu</span>
-        <span className="text-sm leading-none">Frontend Developer</span>
+        <span className="text-sm leading-none text-gray-600">
+          Software Engineer
+        </span>
       </div>
     </Link>
   );
