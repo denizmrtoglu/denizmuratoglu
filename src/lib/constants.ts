@@ -5,7 +5,7 @@ export const ABOUT_ME_LINKS: {
 }[] = [
   {
     title: `Introduction`,
-    href: `/`,
+    href: `/introduction`,
     description: `Overview of my background and interests.`
   },
   {
