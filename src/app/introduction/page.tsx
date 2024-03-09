@@ -1,7 +1,7 @@
 export default function Introduction() {
   return (
     <>
-      <div className="flex flex-col p-16">
+      <div className="flex flex-col lg:p-16 p-4">
         <p>
           {`Hey there! 👋 I'm Deniz, a passionate Senior Frontend Software Engineer currently bringing ideas to life at Crea Inc. 
             Born and raised in the historic city of Antakya, Turkey, I have been always fascinated by the blend of culture and technology. 
@@ -27,6 +27,7 @@ export default function Introduction() {
           {`I believe that technology is not just about solving problems but about making connections and exploring the world in new ways. 
             If you're interested in collaboration or just want to say hi 🙋‍♂️, don't hesitate to reach out. Let's make something amazing together! 🌟`}
         </p>
+        <div className="flex flex-row"></div>
       </div>
     </>
   );
