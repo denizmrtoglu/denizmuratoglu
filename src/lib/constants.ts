@@ -1,3 +1,5 @@
+import { IJourneyProps } from './constants.types';
+
 export const ABOUT_ME_LINKS: {
   title: string;
   href: string;
@@ -10,7 +12,7 @@ export const ABOUT_ME_LINKS: {
   },
   {
     title: `Journey`,
-    href: `/`,
+    href: `/journey`,
     description: `The road I've traveled in tech, from start to here.from start to here.from start to here.`
   },
   {
@@ -44,5 +46,125 @@ export const INSIGHTS_LINKS: {
     title: `Reading`,
     href: `/`,
     description: `Essential articles and blogs for tech enthusiasts and professionals.`
+  }
+];
+
+export const JOURNEY: IJourneyProps[] = [
+  {
+    year: 1992,
+    items: [
+      {
+        title: 'Born',
+        description: 'In Antakya, Turkey'
+      }
+    ]
+  },
+  {
+    year: 2010,
+    items: [
+      {
+        title: 'Graduation of high school',
+        description: 'Selim Nevzat Sahin Anatolian High School'
+      }
+    ]
+  },
+  {
+    year: 2011,
+    items: [
+      {
+        title: 'Founded',
+        description: 'Sosyal Hacettepe'
+      }
+    ]
+  },
+  {
+    year: 2017,
+    items: [
+      {
+        title: 'Joined Bilisim AS',
+        description: 'Software Developer'
+      }
+    ]
+  },
+  {
+    year: 2019,
+    items: [
+      {
+        title: `Bachelor's degree`,
+        description: 'Hacettepe University | CS'
+      },
+      {
+        title: `Served in the military`,
+        description: 'At Istanbul'
+      },
+      {
+        title: `Joined OBSS (Yapıkredi Bank)`,
+        description: 'Software Developer'
+      },
+      {
+        title: `Moved`,
+        description: 'To Istanbul'
+      }
+    ]
+  },
+  {
+    year: 2020,
+    items: [
+      {
+        title: `Moved`,
+        description: 'To Ankara'
+      },
+      {
+        title: `Account Changed OBSS (Aselsan)`,
+        description: 'Software Developer'
+      },
+      {
+        title: `Married`,
+        description: 'To Aybüke'
+      },
+      {
+        title: `Joined Puente`,
+        description: 'Sn. Software Developer'
+      }
+    ]
+  },
+  {
+    year: 2021,
+    items: [
+      {
+        title: `Camping`,
+        description: 'At Bozcaada'
+      },
+      {
+        title: `Joined Kafein (Vodafone)`,
+        description: 'Sn. Software Developer'
+      }
+    ]
+  },
+  {
+    year: 2022,
+    items: [
+      {
+        title: `Joined Tmob (Hepsiburada)`,
+        description: 'Sn. Software Developer'
+      },
+      {
+        title: `Visited`,
+        description: 'Vienna & Rome'
+      }
+    ]
+  },
+  {
+    year: 2023,
+    items: [
+      {
+        title: `Joined Crea Inc`,
+        description: 'Sn. Software Developer'
+      },
+      {
+        title: `Visited`,
+        description: 'London'
+      }
+    ]
   }
 ];
