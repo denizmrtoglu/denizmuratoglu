@@ -11,7 +11,7 @@ import { DownloadIcon } from '@radix-ui/react-icons';
 export default function Resume() {
   return (
     <div className="flex flex-col lg:p-16 w-full">
-      <Button className="self-center">
+      <Button className="self-center  mb-4">
         <a
           href="./assets/deniz-muratoglu-cv.pdf"
           download
@@ -20,7 +20,7 @@ export default function Resume() {
           <DownloadIcon /> Download
         </a>
       </Button>
-      <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-lg">
+      <div className="max-w-4xl mx-auto p-8 bg-white dark:bg-neutral-800/30 shadow-lg rounded-lg">
         <CVHeader />
 
         <CVSection title="SUMMARY">
