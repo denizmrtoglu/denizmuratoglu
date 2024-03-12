@@ -17,7 +17,7 @@ export const ABOUT_ME_LINKS: {
   },
   {
     title: `Resume`,
-    href: `/`,
+    href: `/resume`,
     description: `Snapshot of my skills, experiences, and where I've made an impact.`
   }
 ];
@@ -167,4 +167,202 @@ export const JOURNEY: IJourneyProps[] = [
       }
     ]
   }
+];
+
+export const WorkExperiences = [
+  {
+    title: 'Crea Inc',
+    period: '2022-Current',
+    position: 'Web & Mobile Developer',
+    projects: [
+      {
+        title: 'EdVisorly',
+        description:
+          'EdVisorly is the first and only platform to empower community college students to explore, connect, and apply to public & private universities through one simple and transparent mobile app.'
+      }
+    ]
+  },
+  {
+    title: 'Tmob (Hepsiburada)',
+    period: '2022-2022',
+    position: 'Web & Mobile Developer',
+    projects: [
+      {
+        title: 'Hepsipay Wallet',
+        description:
+          'Hepsipay Wallet is your digital wallet that allows you to make fast, secure, and easy payments on Hepsiburada.'
+      }
+    ]
+  },
+  {
+    title: 'Kafein (Vodafone)',
+    period: '2021-2022',
+    position: 'Web Developer',
+    projects: [
+      {
+        title: 'Vodafone Supermarket',
+        description:
+          'Vodafone Supermarket is an online market project that can be accessed from within the Vodafone Turkey mobile application.'
+      },
+      {
+        title: 'Vodafone Her Şey Yanımda',
+        description:
+          'Vodafone Her Şey Yanımda is an online e-commerce project that can be accessed from within the Vodafone Turkey mobile application and also from the browser.'
+      }
+    ]
+  },
+  {
+    title: 'Puente Technology And Design',
+    period: '2020-2021',
+    position: 'Web & Mobile Developer',
+    projects: [
+      {
+        title: 'KitapDinler',
+        description:
+          'KitapDinler is an audiobook mobile application. You can download and listen to the content you want for free and take notes.'
+      },
+      {
+        title: 'Real Estate',
+        description:
+          'Real Estate is a web application that helps the property investor to calculate the values of their properties.'
+      }
+    ]
+  },
+  {
+    title: 'OBSS (Aselsan)',
+    period: '2019-2020',
+    position: 'Web Developer',
+    projects: [
+      {
+        title: 'TUKKS',
+        description:
+          'NATO compatible Brigade and Above Joint Command and Control System.'
+      },
+      {
+        title: 'Authentication and Authorization',
+        description:
+          'Web interface development of the Authentication and Authorization project.'
+      }
+    ]
+  },
+  {
+    title: 'Bilişim AŞ',
+    period: '2017-2019',
+    position: 'Web & Mobile Developer',
+    projects: [
+      {
+        title: 'BilişimBI',
+        description:
+          'BilişimBI is a business intelligence product that is a product for collecting, analyzing, and interpreting data from internal and external sources to provide information and analysis on the past, present, and future status of the subject under study.'
+      },
+      {
+        title: 'The Banks Association Of Turkey',
+        description:
+          'The Banks Association Of Turkey Data Query System is a web application where you can access statistical data and reports of The Banks Association Of Turkey.'
+      },
+      {
+        title: 'Central Bank Of The Republic Of Turkey',
+        description:
+          'The Electronic Data Delivery System (EVDS) presents statistical time series data produced by the CBRT and/or data produced by other institutions and compiled by the CBRT.'
+      }
+    ]
+  },
+  {
+    title: 'Bilişim AŞ',
+    period: '2017',
+    position: 'Intern',
+    projects: [
+      {
+        title: 'BilişimBI Module Development',
+        description:
+          'I developed a module so that the codes written in R, a programming language used for statistical calculation and data visualization, will run in the BilişimBI product.'
+      }
+    ]
+  },
+  {
+    title: 'Uz Consulting International',
+    period: '2015',
+    position: 'Intern',
+    projects: [
+      {
+        title: 'Web Development Projects',
+        description:
+          'Worked on projects where I gained basic experience in HTML and CSS.'
+      }
+    ]
+  }
+];
+
+export const AdditionalExperiences = [
+  {
+    title: 'InStorey',
+    period: 'Freelance',
+    position: 'Mobile Developer',
+    description:
+      'InStorey is the mobile app that helps you discover boutiques, independents and concept stores that turn fun shopping experiences into memorable stories.'
+  },
+  {
+    title: 'Visit Ürgüp',
+    period: 'Freelance',
+    position: 'Mobile Developer',
+    description:
+      'Visit Ürgüp is a city guide mobile application with all up-to-date information about Ürgüp Municipality.'
+  },
+  {
+    title: 'Evka',
+    period: 'Freelance',
+    position: 'Web Developer',
+    description:
+      'A web application for a local furniture production facility to manage order, production and invoice processes.'
+  },
+  {
+    title: 'Tusworld',
+    period: 'Freelance',
+    position: 'Mobile Developer',
+    description:
+      'Tusworld is an online learning platform. It features video and live courses of the educational institution.'
+  },
+  {
+    title: 'Yürü Kazan',
+    period: 'Freelance',
+    position: 'Mobile Developer',
+    description:
+      'Yürü Kazan is a pedometer application. It is also a mobile application that ranks people living in the same area by step count.'
+  }
+];
+
+export const Summary = `I am a Computer Engineering graduate from Hacettepe University with a
+strong academic background. I embarked on my career journey part-time
+in 2017 and transitioned to full-time employment in 2018. Over the
+past four years, I have cultivated my expertise as a Front-End
+Developer specializing in React and React Native. My commitment to
+these technologies drives my ongoing pursuit of excellence and
+continuous improvement in my field. I am open to relocating for
+opportunities and I am also committed to rapidly improving my English
+language skills.`;
+
+export const Skills = [
+  'Javascript',
+  'React',
+  'React Native',
+  'Typescript',
+  'JQuery',
+  'HTML',
+  'CSS',
+  'Scss',
+  'Next.js',
+  'Redux',
+  'Redux Toolkit',
+  'Recoil',
+  'Zustand',
+  'ContextAPI',
+  'GetStream',
+  'Auth0',
+  'Jira',
+  'Git',
+  'Adobe Photoshop',
+  'Figma',
+  'Material UI',
+  'Semantic UI',
+  'Ant Design'
 ];
