@@ -10,7 +10,7 @@ import { DownloadIcon } from '@radix-ui/react-icons';
 
 export default function Resume() {
   return (
-    <div className="flex flex-col lg:p-16 w-full">
+    <div className="flex flex-col lg:p-16 w-full pb-4">
       <Button className="self-center  mb-4">
         <a
           href="./assets/deniz-muratoglu-cv.pdf"
