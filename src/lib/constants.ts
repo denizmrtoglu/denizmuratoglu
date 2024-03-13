@@ -34,7 +34,7 @@ export const INSIGHTS_LINKS: {
   },
   {
     title: `Stack`,
-    href: `/`,
+    href: `/stack`,
     description: `Discover my tech tools, languages, and frameworks I work with.`
   },
   {
@@ -365,4 +365,48 @@ export const Skills = [
   'Material UI',
   'Semantic UI',
   'Ant Design'
+];
+
+export const Stacks = [
+  {
+    name: 'VSCode',
+    uri: 'https://code.visualstudio.com/',
+    description: 'A free, open-source code editor developed by Microsoft.'
+  },
+  {
+    name: 'Postman',
+    uri: 'https://www.postman.com/',
+    description:
+      'A tool for testing APIs, facilitating the development and testing of web services.'
+  },
+  {
+    name: '1Password',
+    uri: 'https://1password.com/',
+    description:
+      'A secure password management tool for storing and managing sensitive login details.'
+  },
+  {
+    name: 'Notion',
+    uri: 'https://www.notion.so/',
+    description:
+      'An all-in-one workspace for note-taking, project management, and task organization.'
+  },
+  {
+    name: 'Flipper',
+    uri: 'https://fbflipper.com/',
+    description:
+      'A debugging platform for mobile apps, supporting iOS, Android, and React Native.'
+  },
+  {
+    name: 'Reactotron',
+    uri: 'https://github.com/infinitered/reactotron',
+    description:
+      'A desktop application for inspecting React JS and React Native projects.'
+  },
+  {
+    name: 'Homebrew',
+    uri: 'https://brew.sh/',
+    description:
+      'The package manager for macOS, simplifying the installation and update of software.'
+  }
 ];

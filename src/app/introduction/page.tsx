@@ -1,7 +1,7 @@
 export default function Introduction() {
   return (
     <>
-      <div className="flex flex-col lg:p-16 p-4">
+      <div className="flex flex-col lg:p-16 py-4">
         <p>
           {`Hey there! 👋 I'm Deniz, a passionate Senior Frontend Software Engineer currently bringing ideas to life at Crea Inc. 
             Born and raised in the historic city of Antakya, Turkey, I have been always fascinated by the blend of culture and technology. 
