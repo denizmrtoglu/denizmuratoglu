@@ -13,10 +13,13 @@ import ThemeButton from '../theme-button';
 import { NavigationMenu } from '../ui/navigation-menu';
 import { ScrollArea } from '../ui/scroll-area';
 import { Separator } from '../ui/separator';
+import { useState } from 'react';
 
 export function MobileMenu() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <Sheet>
+    <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild className="flex md:hidden">
         <Button variant="outline">
           <HamburgerMenuIcon />
@@ -31,7 +34,7 @@ export function MobileMenu() {
         </SheetHeader>
         <Separator className="mt-2 mb-4" />
         <ScrollArea className="flex-1">
-          <NavigationMenu>
+          <NavigationMenu onClick={() => setOpen(false)}>
             <ul className="grid gap-2 px-3">
               <SheetTitle>About Me</SheetTitle>
               {ABOUT_ME_LINKS.map(item => (
