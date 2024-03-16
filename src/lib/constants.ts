@@ -38,8 +38,8 @@ export const INSIGHTS_LINKS: {
     description: `Discover my tech tools, languages, and frameworks I work with.`
   },
   {
-    title: `Bookmark`,
-    href: `/`,
+    title: `Bookmarks`,
+    href: `/bookmarks`,
     description: `Curated list of impactful articles, tools, and tech resources.`
   },
   {
