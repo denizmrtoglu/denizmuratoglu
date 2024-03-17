@@ -44,7 +44,7 @@ export const INSIGHTS_LINKS: {
   },
   {
     title: `Reading`,
-    href: `/`,
+    href: `/reading`,
     description: `Essential articles and blogs for tech enthusiasts and professionals.`
   }
 ];
