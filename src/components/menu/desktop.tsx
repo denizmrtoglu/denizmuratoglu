@@ -48,8 +48,7 @@ export function DesktopMenu() {
                     <div>
                       <div className="mb-2 mt-4 text-lg font-medium">sosio</div>
                       <p className="text-sm leading-tight text-muted-foreground">
-                        {`Turning ideas into reality with expertise and
-                      dedication.`}
+                        {`A revolution in the modern working world!`}
                       </p>
                     </div>
                   </a>
@@ -71,7 +70,7 @@ export function DesktopMenu() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
+          <Link href="/contact" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Contact
             </NavigationMenuLink>

@@ -10,7 +10,7 @@ function Header() {
     <header className="w-full py-4 lg:border-b border-dashed border-slate-100 w-screen bg-background z-10">
       <div className="flex flex-row items-center justify-between mx-auto lg:max-w-7xl px-4">
         <MyAvatar />
-        <div className="flex flex-row items-center">
+        <div className="flex flex-row items-center space-x-1">
           <DesktopMenu />
           <MobileMenu />
           <div className="md:flex hidden">
