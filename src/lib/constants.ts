@@ -1,4 +1,4 @@
-import { IJourneyProps } from './constants.types';
+import { IJourneyProps, SocialLinksProps } from './constants.types';
 
 export const ABOUT_ME_LINKS: {
   title: string;
@@ -408,5 +408,24 @@ export const Stacks = [
     uri: 'https://brew.sh/',
     description:
       'The package manager for macOS, simplifying the installation and update of software.'
+  }
+];
+
+export const SocialLinks: SocialLinksProps[] = [
+  { name: 'Github', uri: 'https://github.com/denizmrtoglu', icon: 'github' },
+  {
+    name: 'E-mail',
+    uri: 'mailto:denizmrtoglu@gmail.com',
+    icon: 'email'
+  },
+  {
+    name: 'LinkedIn',
+    uri: 'https://www.linkedin.com/in/deniz-murato%C4%9Flu-b252b1b5/',
+    icon: 'linkedin'
+  },
+  {
+    name: 'Instagram',
+    uri: 'https://www.instagram.com/denizmrtoglu/',
+    icon: 'instagram'
   }
 ];

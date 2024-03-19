@@ -50,7 +50,7 @@ export function MobileMenu() {
                 </ListItem>
               ))}
               <Separator className="my-4" />
-              <ListItem title={'Contact'} href={'/'}></ListItem>
+              <ListItem title={'Contact'} href={'/contact'}></ListItem>
             </ul>
           </NavigationMenu>
           {/* <DrawerFooter>
