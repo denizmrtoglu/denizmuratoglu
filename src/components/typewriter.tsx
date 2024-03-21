@@ -50,7 +50,7 @@ function Typewriter({
   }, [text, trigger]);
 
   return (
-    <div>
+    <div className={className}>
       <span className={className}>{text}</span>
       {!(hideCursor && text.length === message.length) && trigger && (
         <span
