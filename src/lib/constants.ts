@@ -29,7 +29,7 @@ export const INSIGHTS_LINKS: {
 }[] = [
   {
     title: `Blog`,
-    href: `/`,
+    href: `/blog`,
     description: `Explore insights on tech, my experiences, and industry trends.`
   },
   {
