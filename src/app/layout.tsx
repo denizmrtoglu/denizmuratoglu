@@ -26,7 +26,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="px-4 mx-auto lg:max-w-7xl lg:border-l lg:border-r border-dashed border-slate-100">
+          <div className="px-4 mx-auto lg:max-w-7xl">
             <main className="flex min-h-screen flex-col items-center h-full">
               <Header />
               {children}
