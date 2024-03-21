@@ -36,13 +36,12 @@ export function DesktopMenu() {
                     target="_blank"
                   >
                     <Image
-                      src="./assets/sosio.svg"
-                      alt="@profile-picture"
-                      className="rounded flex-1 max-w-36"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: 'auto' }}
+                      src="/assets/sosio.svg"
+                      alt="Sosio Logo"
+                      className="dark:invert my-auto"
+                      width={120}
+                      height={36}
+                      priority
                     />
 
                     <div>
