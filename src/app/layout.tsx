@@ -8,7 +8,19 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Deniz Muratoglu',
-  description: 'Software Engineer'
+  description: 'Software Engineer',
+  icons: {
+    icon: [
+      {
+        url: '/light-icon.png',
+        media: '(prefers-color-scheme: light)'
+      },
+      {
+        url: '/dark-icon.png',
+        media: '(prefers-color-scheme: dark)'
+      }
+    ]
+  }
 };
 
 export default function RootLayout({
