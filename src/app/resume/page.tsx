@@ -1,14 +1,16 @@
 import { CVHeader, CVSection, CVItem, SkillTag } from '@/components/resume';
 import { Button } from '@/components/ui/button';
-import {
-  Summary,
-  WorkExperiences,
-  AdditionalExperiences,
-  Skills
-} from '@/lib/constants';
+import api from '@/services/api';
+import { ResumeDTO } from '@/types/Resume';
 import { DownloadIcon } from '@radix-ui/react-icons';
 
-export default function Resume() {
+export default async function Resume() {
+  const fetchData = async () => {
+    const res = await api.get<ResumeDTO>('resume');
+    return res;
+  };
+  const { data } = await fetchData();
+
   return (
     <div className="flex flex-col lg:p-16 w-full py-4">
       <Button className="self-center  mb-4">
@@ -24,7 +26,7 @@ export default function Resume() {
         <CVHeader />
 
         <CVSection title="SUMMARY">
-          <p className="text-sm">{Summary}</p>
+          <p className="text-sm">{data.summary}</p>
         </CVSection>
 
         <CVSection title="EDUCATION">
@@ -39,7 +41,7 @@ export default function Resume() {
         </CVSection>
 
         <CVSection title="WORK EXPERIENCE">
-          {WorkExperiences.map((experience, index) => (
+          {data.workExperiences.map((experience, index) => (
             <CVItem
               key={index}
               title={experience.title}
@@ -57,7 +59,7 @@ export default function Resume() {
         </CVSection>
 
         <CVSection title="ADDITIONAL EXPERIENCE">
-          {AdditionalExperiences.map((experience, index) => (
+          {data.additionalExperiences.map((experience, index) => (
             <CVItem
               key={index}
               title={experience.title}
@@ -73,7 +75,7 @@ export default function Resume() {
 
         <CVSection title="SKILLS">
           <div className="flex flex-wrap">
-            {Skills.map((skill, index) => (
+            {data.skills.map((skill, index) => (
               <SkillTag key={index} skill={skill} />
             ))}
           </div>

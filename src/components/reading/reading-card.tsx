@@ -17,7 +17,6 @@ interface Props {
 }
 
 function ReadingCard({ bookmark }: Props) {
-  console.log(bookmark);
   return (
     <Link href={bookmark.link} target="blank">
       <Card className="cursor-pointer transition-colors duration-300 hover:bg-accent hover:text-accent-foreground drop-shadow-md h-full	flex md:flex-row flex-col">

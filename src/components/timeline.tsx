@@ -1,14 +1,8 @@
-import { IJourneyProps } from '@/lib/constants.types';
 import { BookmarkFilledIcon, BorderSolidIcon } from '@radix-ui/react-icons';
 import { Alert, AlertDescription, AlertTitle } from './ui/alert';
+import { IJourney, JourneyDTO } from '@/types/Journey';
 
-const TimelineItem = ({
-  event,
-  index
-}: {
-  event: IJourneyProps;
-  index: number;
-}) => {
+const TimelineItem = ({ event, index }: { event: IJourney; index: number }) => {
   const isRight = index % 2 !== 0;
 
   return (
@@ -38,7 +32,7 @@ const TimelineItem = ({
   );
 };
 
-export const Timeline = ({ data }: { data: IJourneyProps[] }) => {
+export const Timeline = ({ data }: { data: JourneyDTO }) => {
   return (
     <div className="min-h-screen w-full flex justify-center">
       <div className="relative w-full">
