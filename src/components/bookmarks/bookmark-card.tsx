@@ -37,7 +37,7 @@ function BookmarkCard({ bookmark }: Props) {
             </p>
           </CardTitle>
           <CardDescription className="line-clamp-2 min-h-10">
-            {bookmark.excerpt}
+            {bookmark.excerpt || bookmark.note}
           </CardDescription>
         </CardHeader>
         <CardContent>

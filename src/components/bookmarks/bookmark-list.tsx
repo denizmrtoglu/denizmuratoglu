@@ -1,27 +1,35 @@
 'use client';
-import { useEffect, useState } from 'react';
+import useBookmarks from '@/hooks/useBookmarks';
+import { Tabs, TabsList, TabsTrigger } from '../ui/tabs';
 import BookmarkCard from './bookmark-card';
-import { getBookmarkItems } from '@/lib/raindrop';
-import { BookmarkResponseDTO } from '@/types/Bookmark';
 
 export function BookmarkList() {
-  const [bookmarks, setBookmarks] = useState<BookmarkResponseDTO>();
-  const [pageIndex, setPageIndex] = useState(0);
-
-  useEffect(() => {
-    const fetchBookmarks = async () => {
-      const newBookmarks = await getBookmarkItems(42537571, pageIndex); // id ve pageIndex parametrelerini gönder
-      setBookmarks(newBookmarks);
-    };
-
-    fetchBookmarks();
-  }, [pageIndex]);
+  const { collections, bookmarksData, activeCollection, handleFilter } =
+    useBookmarks();
 
   return (
-    <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
-      {bookmarks?.items?.map((bookmark: any) => (
-        <BookmarkCard key={bookmark._id} bookmark={bookmark} />
-      ))}
-    </div>
+    <>
+      {collections?.items?.length > 0 && (
+        <Tabs
+          defaultValue="all"
+          onValueChange={handleFilter}
+          className="hidden md:flex"
+        >
+          <TabsList className="mb-6">
+            <TabsTrigger value="all">All</TabsTrigger>
+            {collections.items.map((tag: any) => (
+              <TabsTrigger key={tag.slug} value={tag._id}>
+                {tag.title}
+              </TabsTrigger>
+            ))}
+          </TabsList>
+        </Tabs>
+      )}
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
+        {bookmarksData[activeCollection]?.items.map((bookmark: any) => (
+          <BookmarkCard key={bookmark._id} bookmark={bookmark} />
+        ))}
+      </div>
+    </>
   );
 }

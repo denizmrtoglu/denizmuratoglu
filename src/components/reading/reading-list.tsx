@@ -1,25 +1,25 @@
 'use client';
+import { getReadingItems } from '@/lib/raindrop';
+import { BookmarkResponseDTO } from '@/types/Bookmark';
 import { useEffect, useState } from 'react';
 import ReadingCard from './reading-card';
-import { getBookmarkItems } from '@/lib/raindrop';
-import { BookmarkResponseDTO } from '@/types/Bookmark';
 
 export function ReadingList() {
-  const [bookmarks, setBookmarks] = useState<BookmarkResponseDTO>();
+  const [readings, setReadings] = useState<BookmarkResponseDTO>();
   const [pageIndex, setPageIndex] = useState(0);
 
   useEffect(() => {
-    const fetchBookmarks = async () => {
-      const newBookmarks = await getBookmarkItems(42607412, pageIndex); // id ve pageIndex parametrelerini gönder
-      setBookmarks(newBookmarks);
+    const fetchReadings = async () => {
+      const data = await getReadingItems(pageIndex);
+      setReadings(data);
     };
 
-    fetchBookmarks();
+    fetchReadings();
   }, [pageIndex]);
 
   return (
     <div className="grid grid-cols-1 gap-4">
-      {bookmarks?.items?.map((bookmark: any) => (
+      {readings?.items?.map((bookmark: any) => (
         <ReadingCard key={bookmark._id} bookmark={bookmark} />
       ))}
     </div>
