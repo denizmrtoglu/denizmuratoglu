@@ -72,8 +72,12 @@ export const JOURNEY: IJourneyProps[] = [
     year: 2011,
     items: [
       {
-        title: 'Founded',
-        description: 'Sosyal Hacettepe'
+        title: `Moved`,
+        description: 'To Ankara'
+      },
+      {
+        title: 'Founded Sosyal Hacettepe',
+        description: 'Founder'
       }
     ]
   },
@@ -150,7 +154,7 @@ export const JOURNEY: IJourneyProps[] = [
       },
       {
         title: `Visited`,
-        description: 'Vienna & Rome'
+        description: 'Vienna & Venice & Rome'
       }
     ]
   },
@@ -164,6 +168,19 @@ export const JOURNEY: IJourneyProps[] = [
       {
         title: `Visited`,
         description: 'London'
+      }
+    ]
+  },
+  {
+    year: 2024,
+    items: [
+      {
+        title: `Visited`,
+        description: 'Manchester & Liverpool'
+      },
+      {
+        title: `Founded Digipanda`,
+        description: 'Founder'
       }
     ]
   }

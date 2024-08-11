@@ -28,7 +28,7 @@ export function DesktopMenu() {
                   {item.description}
                 </ListItem>
               ))}
-              <li className="row-span-3">
+              {/*<li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <a
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md justify-between"
@@ -52,7 +52,7 @@ export function DesktopMenu() {
                     </div>
                   </a>
                 </NavigationMenuLink>
-              </li>
+              </li>*/}
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
