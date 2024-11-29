@@ -86,7 +86,7 @@ export const JOURNEY: IJourneyProps[] = [
     items: [
       {
         title: 'Joined Bilisim AS',
-        description: 'Software Developer'
+        description: 'Software Engineer'
       }
     ]
   },
@@ -103,7 +103,7 @@ export const JOURNEY: IJourneyProps[] = [
       },
       {
         title: `Joined OBSS (Yapıkredi Bank)`,
-        description: 'Software Developer'
+        description: 'Software Engineer'
       },
       {
         title: `Moved`,
@@ -120,7 +120,7 @@ export const JOURNEY: IJourneyProps[] = [
       },
       {
         title: `Account Changed OBSS (Aselsan)`,
-        description: 'Software Developer'
+        description: 'Software Engineer'
       },
       {
         title: `Married`,
@@ -128,7 +128,7 @@ export const JOURNEY: IJourneyProps[] = [
       },
       {
         title: `Joined Puente`,
-        description: 'Sn. Software Developer'
+        description: 'Sn. Software Engineer'
       }
     ]
   },
@@ -141,7 +141,7 @@ export const JOURNEY: IJourneyProps[] = [
       },
       {
         title: `Joined Kafein (Vodafone)`,
-        description: 'Sn. Software Developer'
+        description: 'Sn. Software Engineer'
       }
     ]
   },
@@ -150,7 +150,7 @@ export const JOURNEY: IJourneyProps[] = [
     items: [
       {
         title: `Joined Tmob (Hepsiburada)`,
-        description: 'Sn. Software Developer'
+        description: 'Sn. Software Engineer'
       },
       {
         title: `Visited`,
@@ -163,7 +163,7 @@ export const JOURNEY: IJourneyProps[] = [
     items: [
       {
         title: `Joined Crea Inc`,
-        description: 'Sn. Software Developer'
+        description: 'Sn. Software Engineer'
       },
       {
         title: `Visited`,
@@ -181,6 +181,10 @@ export const JOURNEY: IJourneyProps[] = [
       {
         title: `Founded Digipanda`,
         description: 'Founder'
+      },
+      {
+        title: `Joined Hirehoot`,
+        description: 'Sn. Software Engineer (Founding Team)'
       }
     ]
   }
@@ -190,7 +194,7 @@ export const WorkExperiences = [
   {
     title: 'Crea Inc',
     period: '2022-Current',
-    position: 'Web & Mobile Developer',
+    position: 'Web & Mobile Engineer',
     projects: [
       {
         title: 'EdVisorly',
@@ -202,7 +206,7 @@ export const WorkExperiences = [
   {
     title: 'Tmob (Hepsiburada)',
     period: '2022-2022',
-    position: 'Web & Mobile Developer',
+    position: 'Web & Mobile Engineer',
     projects: [
       {
         title: 'Hepsipay Wallet',
@@ -214,7 +218,7 @@ export const WorkExperiences = [
   {
     title: 'Kafein (Vodafone)',
     period: '2021-2022',
-    position: 'Web Developer',
+    position: 'Web Engineer',
     projects: [
       {
         title: 'Vodafone Supermarket',
@@ -231,7 +235,7 @@ export const WorkExperiences = [
   {
     title: 'Puente Technology And Design',
     period: '2020-2021',
-    position: 'Web & Mobile Developer',
+    position: 'Web & Mobile Engineer',
     projects: [
       {
         title: 'KitapDinler',
@@ -248,7 +252,7 @@ export const WorkExperiences = [
   {
     title: 'OBSS (Aselsan)',
     period: '2019-2020',
-    position: 'Web Developer',
+    position: 'Web Engineer',
     projects: [
       {
         title: 'TUKKS',
@@ -265,7 +269,7 @@ export const WorkExperiences = [
   {
     title: 'Bilişim AŞ',
     period: '2017-2019',
-    position: 'Web & Mobile Developer',
+    position: 'Web & Mobile Engineer',
     projects: [
       {
         title: 'BilişimBI',
@@ -314,35 +318,35 @@ export const AdditionalExperiences = [
   {
     title: 'InStorey',
     period: 'Freelance',
-    position: 'Mobile Developer',
+    position: 'Mobile Engineer',
     description:
       'InStorey is the mobile app that helps you discover boutiques, independents and concept stores that turn fun shopping experiences into memorable stories.'
   },
   {
     title: 'Visit Ürgüp',
     period: 'Freelance',
-    position: 'Mobile Developer',
+    position: 'Mobile Engineer',
     description:
       'Visit Ürgüp is a city guide mobile application with all up-to-date information about Ürgüp Municipality.'
   },
   {
     title: 'Evka',
     period: 'Freelance',
-    position: 'Web Developer',
+    position: 'Web Engineer',
     description:
       'A web application for a local furniture production facility to manage order, production and invoice processes.'
   },
   {
     title: 'Tusworld',
     period: 'Freelance',
-    position: 'Mobile Developer',
+    position: 'Mobile Engineer',
     description:
       'Tusworld is an online learning platform. It features video and live courses of the educational institution.'
   },
   {
     title: 'Yürü Kazan',
     period: 'Freelance',
-    position: 'Mobile Developer',
+    position: 'Mobile Engineer',
     description:
       'Yürü Kazan is a pedometer application. It is also a mobile application that ranks people living in the same area by step count.'
   }
@@ -351,8 +355,8 @@ export const AdditionalExperiences = [
 export const Summary = `I am a Computer Engineering graduate from Hacettepe University with a
 strong academic background. I embarked on my career journey part-time
 in 2017 and transitioned to full-time employment in 2018. Over the
-past four years, I have cultivated my expertise as a Front-End
-Developer specializing in React and React Native. My commitment to
+past four years, I have cultivated my expertise as a Front-End Software
+Engineer specializing in React and React Native. My commitment to
 these technologies drives my ongoing pursuit of excellence and
 continuous improvement in my field. I am open to relocating for
 opportunities and I am also committed to rapidly improving my English
@@ -395,6 +399,12 @@ export const Stacks = [
     uri: 'https://www.postman.com/',
     description:
       'A tool for testing APIs, facilitating the development and testing of web services.'
+  },
+  {
+    name: 'Vercel',
+    uri: 'https://vercel.com/',
+    description:
+      'Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.'
   },
   {
     name: '1Password',
