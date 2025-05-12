@@ -28,16 +28,6 @@ export const INSIGHTS_LINKS: {
   description: string;
 }[] = [
   {
-    title: `Blog`,
-    href: `/blog`,
-    description: `Explore insights on tech, my experiences, and industry trends.`
-  },
-  {
-    title: `Stack`,
-    href: `/stack`,
-    description: `Discover my tech tools, languages, and frameworks I work with.`
-  },
-  {
     title: `Bookmarks`,
     href: `/bookmarks`,
     description: `Curated list of impactful articles, tools, and tech resources.`
@@ -179,10 +169,6 @@ export const JOURNEY: IJourneyProps[] = [
         description: 'Manchester & Liverpool'
       },
       {
-        title: `Founded Digipanda`,
-        description: 'Founder'
-      },
-      {
         title: `Joined Hirehoot`,
         description: 'Sn. Software Engineer (Founding Team)'
       }
@@ -194,10 +180,10 @@ export const WorkExperiences = [
   {
     title: 'Crea Inc',
     period: '2022-Current',
-    position: 'Web & Mobile Engineer',
+    position: 'Web & Mobile Developer - Frontend Team Lead',
     projects: [
       {
-        title: 'EdVisorly',
+        title: 'EdVisorly & EddyDB',
         description:
           'EdVisorly is the first and only platform to empower community college students to explore, connect, and apply to public & private universities through one simple and transparent mobile app.'
       }
@@ -206,7 +192,7 @@ export const WorkExperiences = [
   {
     title: 'Tmob (Hepsiburada)',
     period: '2022-2022',
-    position: 'Web & Mobile Engineer',
+    position: 'Web & Mobile Developer',
     projects: [
       {
         title: 'Hepsipay Wallet',
@@ -218,7 +204,7 @@ export const WorkExperiences = [
   {
     title: 'Kafein (Vodafone)',
     period: '2021-2022',
-    position: 'Web Engineer',
+    position: 'Web Developer',
     projects: [
       {
         title: 'Vodafone Supermarket',
@@ -235,7 +221,7 @@ export const WorkExperiences = [
   {
     title: 'Puente Technology And Design',
     period: '2020-2021',
-    position: 'Web & Mobile Engineer',
+    position: 'Web & Mobile Developer',
     projects: [
       {
         title: 'KitapDinler',
@@ -252,7 +238,7 @@ export const WorkExperiences = [
   {
     title: 'OBSS (Aselsan)',
     period: '2019-2020',
-    position: 'Web Engineer',
+    position: 'Web Developer',
     projects: [
       {
         title: 'TUKKS',
@@ -269,7 +255,7 @@ export const WorkExperiences = [
   {
     title: 'Bilişim AŞ',
     period: '2017-2019',
-    position: 'Web & Mobile Engineer',
+    position: 'Web & Mobile Developer',
     projects: [
       {
         title: 'BilişimBI',
@@ -316,51 +302,56 @@ export const WorkExperiences = [
 
 export const AdditionalExperiences = [
   {
+    title: 'Hirehoot',
+    period: 'Freelance (Founding Team)',
+    position: 'Senior Frontend Engineer',
+    description:
+      'Hirehoot is a leadership talent matching platform with privacy-first that connects fast-growing technology companies with top-level senior professionals.'
+  },
+  {
     title: 'InStorey',
     period: 'Freelance',
-    position: 'Mobile Engineer',
+    position: 'Mobile Developer',
     description:
       'InStorey is the mobile app that helps you discover boutiques, independents and concept stores that turn fun shopping experiences into memorable stories.'
   },
   {
     title: 'Visit Ürgüp',
     period: 'Freelance',
-    position: 'Mobile Engineer',
+    position: 'Mobile Developer',
     description:
       'Visit Ürgüp is a city guide mobile application with all up-to-date information about Ürgüp Municipality.'
   },
   {
     title: 'Evka',
     period: 'Freelance',
-    position: 'Web Engineer',
+    position: 'Web Developer',
     description:
       'A web application for a local furniture production facility to manage order, production and invoice processes.'
   },
   {
     title: 'Tusworld',
     period: 'Freelance',
-    position: 'Mobile Engineer',
+    position: 'Mobile Developer',
     description:
       'Tusworld is an online learning platform. It features video and live courses of the educational institution.'
   },
   {
     title: 'Yürü Kazan',
     period: 'Freelance',
-    position: 'Mobile Engineer',
+    position: 'Mobile Developer',
     description:
       'Yürü Kazan is a pedometer application. It is also a mobile application that ranks people living in the same area by step count.'
   }
 ];
 
-export const Summary = `I am a Computer Engineering graduate from Hacettepe University with a
-strong academic background. I embarked on my career journey part-time
-in 2017 and transitioned to full-time employment in 2018. Over the
-past four years, I have cultivated my expertise as a Front-End Software
-Engineer specializing in React and React Native. My commitment to
-these technologies drives my ongoing pursuit of excellence and
-continuous improvement in my field. I am open to relocating for
-opportunities and I am also committed to rapidly improving my English
-language skills.`;
+export const Summary = `I am a Computer Engineering graduate from Hacettepe University with a 
+strong academic background. I embarked on my career journey part-time in 2017 and transitioned 
+to full-time employment in 2018. Over the past four years, I have cultivated my expertise 
+as a Front-End Developer, specializing in React and React Native. My commitment to these 
+technologies drives my ongoing pursuit of excellence and continuous improvement in my field. 
+I am committed to rapidly improving my English language skills.
+`;
 
 export const Skills = [
   'Javascript',
