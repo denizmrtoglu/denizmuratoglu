@@ -8,8 +8,37 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Deniz Muratoglu',
-  description: 'Software Engineer',
+  title: 'Deniz Muratoglu | Software Engineer',
+  description:
+    'Personal portfolio and blog of Deniz Muratoglu, Software Engineer specializing in web development and modern JavaScript frameworks',
+  keywords: [
+    'Software Engineer',
+    'Web Development',
+    'React',
+    'Next.js',
+    'JavaScript',
+    'TypeScript'
+  ],
+  authors: [{ name: 'Deniz Muratoglu' }],
+  creator: 'Deniz Muratoglu',
+  publisher: 'Deniz Muratoglu',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://denizmuratoglu.com',
+    title: 'Deniz Muratoglu | Software Engineer',
+    description:
+      'Personal portfolio and blog of Deniz Muratoglu, Software Engineer specializing in web development and modern JavaScript frameworks',
+    siteName: 'Deniz Muratoglu',
+    images: [{ url: '/opengraph-image.png' }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Deniz Muratoglu | Software Engineer',
+    description:
+      'Personal portfolio and blog of Deniz Muratoglu, Software Engineer specializing in web development and modern JavaScript frameworks',
+    images: ['/twitter-image.png']
+  },
   icons: {
     icon: [
       {

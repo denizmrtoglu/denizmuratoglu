@@ -11,9 +11,9 @@ export const ABOUT_ME_LINKS: {
     description: `Overview of my background and interests.`
   },
   {
-    title: `Journey`,
+    title: `My Journey`,
     href: `/journey`,
-    description: `The road I've traveled in tech, from start to here.from start to here.from start to here.`
+    description: `The road I've traveled in tech, from start to here.`
   },
   {
     title: `Resume`,
@@ -33,7 +33,7 @@ export const INSIGHTS_LINKS: {
     description: `Curated list of impactful articles, tools, and tech resources.`
   },
   {
-    title: `Reading`,
+    title: `Reading List`,
     href: `/reading`,
     description: `Essential articles and blogs for tech enthusiasts and professionals.`
   }
