@@ -59,7 +59,7 @@ export function DesktopMenu() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Insights & Resources</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+            <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-rows-2 lg:grid-flow-col">
               {INSIGHTS_LINKS.map(item => (
                 <ListItem key={item.title} title={item.title} href={item.href}>
                   {item.description}
