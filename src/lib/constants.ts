@@ -18,7 +18,7 @@ export const ABOUT_ME_LINKS: {
   {
     title: `Resume`,
     href: `/resume`,
-    description: `Snapshot of my skills, experiences, and where I've made an impact.`
+    description: `Overview of my skills, experience, and contributions.`
   }
 ];
 
