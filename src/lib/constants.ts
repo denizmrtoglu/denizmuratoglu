@@ -10,11 +10,11 @@ export const ABOUT_ME_LINKS: {
     href: `/introduction`,
     description: `Overview of my background and interests.`
   },
-  {
-    title: `My Journey`,
-    href: `/journey`,
-    description: `The road I've traveled in tech, from start to here.`
-  },
+  // {
+  //   title: `My Journey`,
+  //   href: `/journey`,
+  //   description: `The road I've traveled in tech, from start to here.`
+  // },
   {
     title: `Resume`,
     href: `/resume`,
