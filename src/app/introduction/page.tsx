@@ -7,7 +7,7 @@ export default function Introduction() {
     <div className="flex md:flex-row flex-col lg:p-16 p-4 md:gap-16 gap-8">
       <Avatar className="md:w-80 md:h-80 w-48 h-48 self-center">
         <AvatarImage
-          src="./assets/deniz_muratoglu.jpg"
+          src="./assets/deniz_muratoglu.JPG"
           alt="@profile-picture"
           className="object-cover"
         />
