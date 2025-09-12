@@ -22,7 +22,7 @@ export function DesktopMenu() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>About Me</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid p-4 md:w-[400px] lg:w-[500px] lg:grid-rows-3 lg:grid-flow-col">
+            <ul className="grid p-4 md:w-[400px] lg:w-[500px] lg:grid-rows-2 lg:grid-flow-col">
               {ABOUT_ME_LINKS.map(item => (
                 <ListItem key={item.title} title={item.title} href={item.href}>
                   {item.description}
