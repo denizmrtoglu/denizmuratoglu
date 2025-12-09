@@ -15,46 +15,46 @@ export default function Introduction() {
       </Avatar>
       <div className="flex flex-col">
         <p>
-          {`Hi, I’m Deniz Muratoğlu, a `}
-          <strong>{`Senior Frontend Software Engineer`}</strong>
-          {` with 7+ years of experience building scalable web and mobile applications. Currently, I lead frontend development at Crea Inc., where I transform ideas into user-focused digital products.`}
+          Hi, I’m Deniz Muratoğlu, a <strong>Senior Frontend Engineer</strong>{' '}
+          with over 8 years of experience in building web and mobile
+          applications using React and React Native. I’m currently working at
+          Crea Inc., focusing on scalable frontend structures, performance
+          improvements, and developing component systems used across different
+          products.
         </p>
 
         <br />
         <p>
-          {`My journey began in Ankara, where I earned my `}
-          <strong>{`Computer Engineering`}</strong>
-          {` degree at Hacettepe University. Since 2017, I’ve worked with industry leaders such as `}
-          <strong>{`Hepsiburada`}</strong>
-          {`, `}
-          <strong>{`Vodafone`}</strong>
-          {` and `}
-          <strong>{`Aselsan`}</strong>
-          {`, as well as in freelancing and startup environments. These experiences allowed me to take part in diverse projects—from enterprise solutions to consumer-facing apps—while continuously sharpening my expertise in React, React Native, and modern web technologies.`}
+          I studied <strong>Computer Engineering</strong> at Hacettepe
+          University and have been working professionally since 2017. Over the
+          years, I’ve been part of teams in various domains including
+          e-commerce, fintech and SaaS, working with companies such as{' '}
+          <strong>Hepsiburada</strong>, <strong>Vodafone</strong> and{' '}
+          <strong>Aselsan</strong>. I’ve also spent time in startup and
+          freelance environments, which gave me the chance to build features
+          end-to-end and be involved more closely in product decisions.
         </p>
 
         <br />
         <p>
-          {`Beyond my professional role, I’m also a `}
-          <strong>{`founding team member`}</strong>
-          {` at Hirehoot, a startup initiative where we are building technology-driven solutions to redefine how people connect with opportunities.`}
+          I’m also one of the <strong>early team members</strong> of Hirehoot,
+          where I set up the initial frontend foundations, design system
+          structure and helped bring the first version of the product to life.
         </p>
 
         <br />
         <p>
-          {`When I’m not coding, I enjoy `}
-          <strong>{`traveling`}</strong>
-          {`, `}
-          <strong>{`camping`}</strong>
-          {`, `}
-          <strong>{`exploring nature`}</strong>
-          {` and `}
-          <strong>{`pottery`}</strong>
-          {`—activities that inspire creativity and balance in my work.`}
+          Outside of work, I enjoy <strong>traveling</strong>,{' '}
+          <strong>spending time outdoors</strong>, <strong>camping</strong> and{' '}
+          <strong>working with clay</strong>. These keep me balanced and
+          inspired away from the keyboard.
         </p>
 
         <br />
-        <p>{`I believe technology is more than problem-solving; it’s about creating meaningful connections and shaping experiences that matter. If you’re interested in collaborating or exchanging ideas, feel free to connect—let’s build something amazing together.`}</p>
+        <p>
+          If you’re interested in connecting or working together, feel free to
+          reach out.
+        </p>
       </div>
     </div>
   );
